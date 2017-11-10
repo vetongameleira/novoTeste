@@ -126,6 +126,9 @@ git branch -d nomeBranch = este comando exclui a branch especificada que ainda n
 
 git branch -D nomeBranch =  este comando exclui a branch especificada que ja possui commit do diretorio
 
+git branch --no-merged = este comando retorna as branchs que ainda nao estao mescladas
+
+
 
  
 
