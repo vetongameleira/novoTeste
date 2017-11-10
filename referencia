@@ -122,7 +122,10 @@ git checkout nome-nova-branch = este comando troca a branch atual pela branch es
 
 git checkout -b nomeBranch = este comando cria e ja seleciona a nova branch automaticamente.
 
-git branch -d nomeBranch = este comando exclui a branch especificada do diretorio
+git branch -d nomeBranch = este comando exclui a branch especificada que ainda nao possui commit do diretorio
+
+git branch -D nomeBranch =  este comando exclui a branch especificada que ja possui commit do diretorio
+
 
  
 
