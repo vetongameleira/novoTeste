@@ -110,7 +110,7 @@ git push nomeDiretorioRemoto master = este comando enviar os arquivos para o dir
 
 git mv nomeArquivo novoNomeArquivo = este comando altera o nome do arquivo 
 
-git mv nomeArquivo NovaPasta/nomeArquivo = este comando coloca o arquivo especificado dentro da pasta informado no comando.
+git mv nomeArqugit ivo NovaPasta/nomeArquivo = este comando coloca o arquivo especificado dentro da pasta informado no comando.
 
 git pull nomeDiretorioServidor master  = este comando sincroniza o diretorio local no meu pc com o diretorio remoto no servidor
 
@@ -122,6 +122,9 @@ git checkout nome-nova-branch = este comando troca a branch atual pela branch es
 
 git checkout -b nomeBranch = este comando cria e ja seleciona a nova branch automaticamente.
 
+git branch -d nomeBranch = este comando exclui a branch especificada do diretorio
+
+ 
 
 
 
