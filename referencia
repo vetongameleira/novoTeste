@@ -116,4 +116,11 @@ git pull nomeDiretorioServidor master  = este comando sincroniza o diretorio loc
 
 git branch = este comando lista todas as branchs que foram criadas 
 
+git branch nomeBranch = este comando cria uma nova branch no repositorio git.
+
+git checkout nome-nova-branch = este comando troca a branch atual pela branch especificada.
+
+
+
+ 
 
