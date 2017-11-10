@@ -65,6 +65,10 @@ git log --author="nome do autor do commit " = este comando exibe os commits feit
 
 git log --grep="termo da pesquisa"  = este comando retorna os commits que contenha o termo de pesquisa informado em sua descricao de commit
 
+git log --parents = este comando retorna o commit pai do ultimo commit feito.
+
+git log --decorate = este comando mostra para qual commit a branch atual esta apontando
+
 gitk = este comando abre uma nova tela com um visualizado de alterações que ja foram feitos no projeto.
 
 git tag -a v1.0 -m "descricao" = este camando cria tags nos arquivos que possibilitam ter visoes diferentes do mesmo arquivo 
@@ -110,5 +114,6 @@ git mv nomeArquivo NovaPasta/nomeArquivo = este comando coloca o arquivo especif
 
 git pull nomeDiretorioServidor master  = este comando sincroniza o diretorio local no meu pc com o diretorio remoto no servidor
 
-***** trabalhando com branchs ******
+git branch = este comando lista todas as branchs que foram criadas 
+
 
