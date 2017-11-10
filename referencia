@@ -110,4 +110,5 @@ git mv nomeArquivo NovaPasta/nomeArquivo = este comando coloca o arquivo especif
 
 git pull nomeDiretorioServidor master  = este comando sincroniza o diretorio local no meu pc com o diretorio remoto no servidor
 
+***** trabalhando com branchs ******
 
