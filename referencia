@@ -120,6 +120,9 @@ git branch nomeBranch = este comando cria uma nova branch no repositorio git.
 
 git checkout nome-nova-branch = este comando troca a branch atual pela branch especificada.
 
+git checkout -b nomeBranch = este comando cria e ja seleciona a nova branch automaticamente.
+
+
 
 
  
