@@ -1,0 +1,113 @@
+cd diretorio/diretorio/diretorio = este comando te leva ao diretorio onde vc esta trabalhando
+
+cd .. = este comando volta um diretorio.
+
+clear  = este comando limpa a tela do git bash
+
+.gitignore = este comando cria um arquivo contendo informacoes sobre as extensoes de arquivos que voce nao deseja que o git restrei
+
+git config --global user.name "kleverton Gameleira" =  este comando configura um nome de quem esta trabalhando non git no momento.
+
+git config user.email vetongameleira@gmail.com =  este comando configura o email de quem esta trabalhando non git no momento.
+
+pwd = este comando mostra o diretorio onde estou executando comandos git no momento
+
+ls = este comando mostra o conteudo do diretorio onde estou executando comandos git no momento.
+
+git init = este comando criar um repositorio de dentro da pasta de destino onde sera realizado o trabalho.
+
+git status = este comando verifica o status do projeto.
+
+git add nome_arquivo = este comando adiciona no git o arquivo com o nome especificado
+ 
+git add * .estensao = este comando adiciona no git todos os arquivos com a estensao especificada
+
+git add . = este comando adiciona no git todos os arquivos de um so vez.
+
+git commit -m "informação generica da auteração" = este comando enviar para o repositorio central do git o arquivo modificado.
+
+git commit -a -m "informação generica da auteração" = este comando enviar para o repositorio central do git o arquivo modificado sem a necessidade do comando git add
+
+git commit -am  "informação generica da auteração" = este comando agrupa os dois comando de adicionar e commita ao mesmo tempo
+
+git diff = este comando retorna todas as alterações que foram feitas no arquivo antes que ele seja adicionado a area de stage com o comando git add.
+
+git diff --staged = este comando retorna todas as alterações que foram feitas no arquivo depois de ser dado o comando git add mas antes que ele seja commitado. 
+
+git diff 70fee68(os sete primeiros numeros do codigo) = este comanda retorna as diferenças entre a versao que ainda nao esta na stage area com a ultima versao comitada
+
+git diff 222cccc..70fee68 = este comando retorna as alteração que foram feitas no arquivo nos commits compreendidos neste intervalo.
+
+git diff 222ccccc~2 = este comando retorna as diferencas no arquivo comparado com os dois commits imediatamente anterirores
+
+git log = este comando retorna todo o historico de commits que foram feitos no projeto(quem fez o commit, que dia,hora,minuto e segundo e a mensagem escrito qual se commita algo).
+
+git log -n2 = este comando retorna os ultimos commit feitos com base na quantidade passada no parametro -n2.
+
+git log -n2 --oneline = ste comando retorna os ultimos commit feitos com base na quantidade passada no parametro -n2 mostrando os dados em uma unica linha.
+
+git --stat = este comando retorna um historico de todas as mudancas efetuadas em todos os commits ja feitos.
+
+git log --oneline = este comando retorna uma lista com todos os commits ja feitos cada um em uma linha contendo descricao do comimit e seu codigo.
+
+git log -p = este comando retorno o historico completo de todos os commits feitos no projeto em orderm decrescente , ou seja, do mais recente ao mais antigo, 
+                  mostrando tudo que foi alterado todas as linhas.
+
+git log -p -1 = este comando retorna o ultimo commit feito no pojeto completo com todas as linhas que foram alteradas.
+
+git log -p -2/ = este comando retorna dois ultimos commits feitogits no projeto.
+
+git log -p -numero_de_que_quiser = este comando retorna quantos commits foram feitos no projeto com base no valor passado no parametro.
+
+git log --pretty=oneline = este comando lista todos os commits feitos em linhas apenas mostrando o codigo de identificacao do commit e a mensagem do commit.
+
+git log --author="nome do autor do commit " = este comando exibe os commits feitos pelo autor passado no parametro
+
+git log --grep="termo da pesquisa"  = este comando retorna os commits que contenha o termo de pesquisa informado em sua descricao de commit
+
+gitk = este comando abre uma nova tela com um visualizado de alterações que ja foram feitos no projeto.
+
+git tag -a v1.0 -m "descricao" = este camando cria tags nos arquivos que possibilitam ter visoes diferentes do mesmo arquivo 
+
+git tag = este comando retorna todas as tags que foram criadas para as versoes do arquivo
+
+git show nomeTag = este comando mostra todos os dados relacionados a tag informada na busca
+
+git commit --amend -m "nova mensagem de commit" = este comando grava / atualiza a alteracao feita em um commit anterior sem fazer um novo commit.
+
+git reset -- nomeArquivo.extensao = este comando retira o arquivo da area de stage do git mas mantem as alteração feitas
+
+git reset HEAD nome_arquivo.extensao = este comando retira o arquivo da stage area para que ele nao seja commitado com os demais.
+
+git reset --hard = este comando retira todos as arquivos que estiverem na area de stage e desfaz todas as alteracoes feitas nesses arquivos.
+
+git revert --no-edit 70fee68 = este comando desfaz as alteracoes feitos no commit passado como parametro.
+ 
+git checkout -- nome_arquivo.extensao = este comando retorna o arquivo para o status que tinha antes de ser adicioanado a area de stage.
+
+git checkout -- nomeArquivo ou NomePasta/ = este comando tambem recupera arquivos ou pastas que foram apagado pro acidente e a na qual a delecao ainda nao tenha cido adicionada a area
+                                                                            de stage do git. 
+
+git rm nome_arquivo.extensao = este comando retira do repositorio do git o arquivo que excluiu ou deseja excluir.
+
+git remote add origin http://www.github.com/nomeDoDiretorio-git.git = este comando aponta um diretorio no github para que os commits possam ser enviados
+
+git remote = este comando lista todos os diretorios remotos adicionados no git.
+
+git remote -v = este comando lista todos os diretorios adicionados no git com suas respectivas urls
+
+git remote rename nomeAtual NovoNome = este comando modifica o nome do repositorio remoto adicionado no git
+
+git remote set-url nomeDiretorio D:/xampp/htdocs/projeto/projet.git = este comando insere uma nova url para o diretorio remoto.
+
+git push origin master = este comando envia o nosso commit para o github da acordo com o diretorio no github
+
+git push nomeDiretorioRemoto master = este comando enviar os arquivos para o diretorio remoto em um servidor.
+
+git mv nomeArquivo novoNomeArquivo = este comando altera o nome do arquivo 
+
+git mv nomeArquivo NovaPasta/nomeArquivo = este comando coloca o arquivo especificado dentro da pasta informado no comando.
+
+git pull nomeDiretorioServidor master  = este comando sincroniza o diretorio local no meu pc com o diretorio remoto no servidor
+
+
