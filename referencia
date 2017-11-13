@@ -128,7 +128,7 @@ git branch -D nomeBranch =  este comando exclui a branch especificada que ja pos
 
 git branch --no-merged = este comando retorna as branchs que ainda nao estao mescladas
 
-
+git merge nomeBranch -m "mensagem do commit"  = este comando mescla todas as alteracoes feitas na branch passada no comando
 
  
 
