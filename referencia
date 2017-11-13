@@ -77,7 +77,11 @@ git tag = este comando lista todas as tags que foram criadas para as versoes do 
 
 git tag -d nomeTag = este comando deleta um tag criada.
 
+git push --tags = este comando envia todas as nossas tags para o diretorio remoto no github de uma vez
+
 git show nomeTag = este comando mostra todos os dados relacionados a tag informada na busca
+
+git show -s = retorna todos os dados do ultimo commit feito no diretorio
 
 git commit --amend -m "nova mensagem de commit" = este comando grava / atualiza a alteracao feita em um commit anterior sem fazer um novo commit.
 
