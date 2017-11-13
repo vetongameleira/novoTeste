@@ -75,6 +75,8 @@ git tag -a v1.0 -m "descricao" = este camando cria tags nos arquivos que possibi
 
 git tag = este comando lista todas as tags que foram criadas para as versoes do arquivo
 
+git tag -d nomeTag = este comando deleta um tag criada.
+
 git show nomeTag = este comando mostra todos os dados relacionados a tag informada na busca
 
 git commit --amend -m "nova mensagem de commit" = este comando grava / atualiza a alteracao feita em um commit anterior sem fazer um novo commit.

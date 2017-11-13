@@ -7,3 +7,8 @@ nav ul li{
     float:left;
     margin-right:20px;
 }
+section#container{
+    width:85%;
+    height:auto;
+    margin:0 auto;
+}
