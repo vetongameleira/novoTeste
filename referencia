@@ -73,7 +73,7 @@ gitk = este comando abre uma nova tela com um visualizado de alterações que ja f
 
 git tag -a v1.0 -m "descricao" = este camando cria tags nos arquivos que possibilitam ter visoes diferentes do mesmo arquivo 
 
-git tag = este comando retorna todas as tags que foram criadas para as versoes do arquivo
+git tag = este comando lista todas as tags que foram criadas para as versoes do arquivo
 
 git show nomeTag = este comando mostra todos os dados relacionados a tag informada na busca
 
