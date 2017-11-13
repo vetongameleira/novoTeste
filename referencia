@@ -146,6 +146,8 @@ git merge origin/master -m 'comando de mesclagem' = este comando mescla a branch
 
 git pull origin master = este comando faz a mesclagem total da branch local com a branch remota.
 
+comando de merge pull
+
 
 
 
