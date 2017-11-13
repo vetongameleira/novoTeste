@@ -132,6 +132,16 @@ git merge nomeBranch -m "mensagem do commit"  = este comando mescla todas as alt
 
 git rebase nomeOutraBranch = este comando mescla todas as branches nao mescladas em um commit com historico
 
+git branch -r = este comando mostra quais sao as branch que existem no repositorio remote la no github
+
+git branch -a = este comando mostra todas as branches tanto do repositorio local como do remoto
+
+git branch -r -v = este comando aponta para que commit a branch atual do repositorio remoto esta apontando
+
+git checkout -b nomeNovaBranch origin/nomeBranch = este comando cria um branch no repositorio local identica a branch do reposoitorio remoto
+
+
+
 
  
 
