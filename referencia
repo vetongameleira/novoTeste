@@ -130,6 +130,9 @@ git branch --no-merged = este comando retorna as branchs que ainda nao estao mes
 
 git merge nomeBranch -m "mensagem do commit"  = este comando mescla todas as alteracoes feitas na branch passada no comando
 
+git rebase nomeOutraBranch = este comando mescla todas as branches nao mescladas em um commit com historico
+
+
  
 
 
