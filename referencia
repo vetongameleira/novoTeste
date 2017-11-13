@@ -143,5 +143,20 @@ git checkout -b nomeNovaBranch origin/nomeBranch = este comando cria um branch n
 
 ****** diretorio local novoDev ******
 
+<<<<<<< HEAD
 *************************************
+=======
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+>>>>>>> fa8661c69588d604ae729b334a257ba74e5f6738
 
