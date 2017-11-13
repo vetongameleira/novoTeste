@@ -142,13 +142,3 @@ git checkout -b nomeNovaBranch origin/nomeBranch = este comando cria um branch n
 
 git fetch origin master = este comando obtem todos os commits feitos na branch remota para a nossa branch local.
 
-
-
-
-
-
-
-
-
-
-
