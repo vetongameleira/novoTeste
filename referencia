@@ -142,3 +142,10 @@ git checkout -b nomeNovaBranch origin/nomeBranch = este comando cria um branch n
 
 git fetch origin master = este comando obtem todos os commits feitos na branch remota para a nossa branch local.
 
+git merge origin/master -m 'comando de mesclagem' = este comando mescla a branch remota com a branch local.
+
+
+
+
+
+
