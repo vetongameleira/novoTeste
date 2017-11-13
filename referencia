@@ -140,12 +140,5 @@ git branch -r -v = este comando aponta para que commit a branch atual do reposit
 
 git checkout -b nomeNovaBranch origin/nomeBranch = este comando cria um branch no repositorio local identica a branch do reposoitorio remoto
 
-
-
-
- 
-
-
-
- 
+****** diretorio local novoDev ******
 
